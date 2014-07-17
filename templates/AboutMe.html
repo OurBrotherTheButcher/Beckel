@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+	<link href="./static/style.css" rel="stylesheet">
+<title> About Me</title>
+
+</head>
+
+<body>
+
+<div id = "top-bar">
+			
+		<!-- this span element, avoid inline style. It is simply to flavor the header bar -->
+		<div id="bar-left" style="top-padding:5px;">
+			Do we want this to  <span style="color:red; font-size: 35px; font-style:italic;"> <b>Change?</b> </span>
+		</div>	
+		<-- need to work on positioning based on graphics possibly -->		
+		
+
+</div> 
+
+
+<div id ="about-container">
+	<p> This is the page about Bob Beckel. </p>
+
+	<p>Do we want images here?</p>
+
+</div>
+
+	<div id="nav-container" style="display:inline;">
+	
+		<ul id = "nav-bar";>
+				<li class = "item"> <a href= "{{ url_for('about')}}"> About Me </a> </li>
+				<li class = "item"> <a href = "http://www.gmail.com" > Contact </a>  </li>
+				<li class = "item"> <a href = "http://www.gmail.com" > Image Gallery</a> </li>
+				<li class = "item"> <a href = "http://www.gmail.com" > Podcast 1</a> </li>
+				<li class = "item"> <a href = "http://www.gmail.com" > Store 2</a>  </li>				
+				<li class = "item"> <a href = "http://www.gmail.com" > Live Feed! 2</a>  </li>
+		</ul>
+			
+		</ul>	
+	</div>
+	
+	
+
+
+
+</body>
+</html>
